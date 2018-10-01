@@ -1,4 +1,4 @@
-class Admin::SongsController < ApplicationController
+class SongsController < ApplicationController
   
   def index
     if params[:artist_id]
